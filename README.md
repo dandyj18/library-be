@@ -1,4 +1,4 @@
-# Library App BE
+# Library App BE (ExpressJS)
 
 Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 
@@ -6,10 +6,16 @@ Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 
 ## Fitur
 
-- API untuk manajemen data buku  
-- Endpoint CRUD (Create, Read, Update, Delete) buku  
-- Integrasi dengan frontend (Next.js)  
-- Struktur API sederhana dan mudah dikembangkan  
+- REST API untuk manajemen data buku  
+- Endpoint CRUD (Create, Read, Update, Delete)  
+- Terintegrasi dengan frontend (Next.js)  
+
+---
+
+## Tech Stack
+
+- Node.js  
+- ExpressJS  
 
 ---
 
