@@ -5,9 +5,9 @@ Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 ---
 
 ## Fitur
-
-- REST API untuk manajemen data buku  
+ 
 - Endpoint CRUD (Create, Read, Update, Delete)  
+- Menggunakan database dengan migration  
 - Terintegrasi dengan frontend (Next.js)  
 
 ---
@@ -16,6 +16,7 @@ Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 
 - Node.js  
 - ExpressJS  
+- Database (MySQL / PostgreSQL)  
 
 ---
 
@@ -25,4 +26,11 @@ Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 git clone https://github.com/dandyj18/library-be.git
 cd library-be
 npm install
+
+# jalankan migration (WAJIB)
+npm run migrate
+# atau:
+# npx sequelize db:migrate
+
+# jalankan server
 npm run dev
