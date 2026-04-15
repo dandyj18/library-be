@@ -16,7 +16,7 @@ Backend sederhana untuk aplikasi katalog buku menggunakan ExpressJS.
 
 - Node.js  
 - ExpressJS  
-- Database (MySQL / PostgreSQL)  
+- Database (PostgreSQL)  
 
 ---
 
